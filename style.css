@@ -25,10 +25,9 @@ body {
 body,
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #40484f;
   font-weight: 400;
-  letter-spacing: 0;
   line-height: 1.46153846;
   text-align: left;
   -webkit-text-size-adjust: 100%;
@@ -86,8 +85,8 @@ strong {
 }
 
 #resume {
-  padding: 1rem;
-  margin-top: 2rem;
+  padding: 1.4rem;
+  margin-top: 0.6rem;
 }
 
 .section {
@@ -154,6 +153,7 @@ section .location {
   background: #f1f8ff;
   padding: 1.2em 1em;
   margin-top: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 .main-summary p {
@@ -416,8 +416,8 @@ ul.courses li:hover {
 
 @media screen and (min-width: 602px) {
   #resume {
-    width: 80%;
-    margin: 0 auto;
+    width: 88%;
+    margin: 2rem auto;
   }
 }
 
@@ -432,7 +432,7 @@ ul.courses li:hover {
   }
 
   #resume {
-    width: 820px;
+    width: 870px;
     margin: 2rem auto;
   }
 
@@ -473,19 +473,20 @@ ul.courses li:hover {
 }
 
 @media print {
+
   #resume {
     margin: 0;
     padding: 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
     line-height: 1.3;
-    /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    font-family: Arial, Georgia, "Lucida Grande", sans-serif;
   }
 
   @page {
-    margin: 1cm 1.4cm;
+    margin: 1.5cm;
   }
-
+/*
   .company::before,
   .institution::before,
   .organization::before,
@@ -585,7 +586,7 @@ ul.courses li:hover {
   .item.display {
     display: block;
     opacity: 1 !important;
-  }
+  }*/
 }
 
 a.link>i {
@@ -599,4 +600,7 @@ a.link:hover>i {
 .project-type {
   font-size: 10px;
   text-decoration: underline;
+}
+.resume-link {
+  margin: 0;
 }
